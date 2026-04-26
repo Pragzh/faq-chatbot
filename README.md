@@ -1,6 +1,7 @@
 # 🏦 FinBot — AI Fintech FAQ Chatbot Builder
 
-> Create a professional AI-powered support chatbot for your fintech business in seconds.
+An AI-powered **fintech customer support chatbot** built using **Node.js, Express, MongoDB, and Groq LLM (LLaMA model)**.  
+It simulates a real banking support system that answers customer queries safely using AI + rules, without giving financial advice.
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -9,9 +10,6 @@
 
 ---
 
-## 🚀 Live Demo
-- **App:** [your-vercel-url.vercel.app](#)
-- **Admin Dashboard:** [your-vercel-url.vercel.app/dashboard/:shareLink](#)
 
 ---
 
@@ -97,8 +95,8 @@ Anyone can run this chatbot locally in a few simple steps:
 First, download the project to your system:
 
 ```bash
-git clone https://github.com/Pragzh/faq-chatbot-backend.git
-cd faq-chatbot-backend
+git clone https://github.com/Pragzh/faq-chatbot.git
+cd faq-chatbot
 
 2️⃣ Setup Backend
 
