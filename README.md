@@ -137,3 +137,17 @@ Get AI responses instantly
 ---
 
 ## 📁 Project Structure
+faq-chatbot/
+├── backend/
+│   ├── index.js          # All API routes
+│   ├── db.js             # MongoDB connection
+│   ├── package.json
+│   └── .env              # Environment variables (not committed)
+│
+└── frontend/
+└── src/
+├── pages/
+│   ├── Setup.jsx       # Create chatbot page
+│   ├── ChatPage.jsx    # Customer chat UI
+│   └── Dashboard.jsx   # Admin dashboard
+└── App.jsx
