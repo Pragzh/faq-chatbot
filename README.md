@@ -69,20 +69,6 @@ Instead of spending months building a custom support system, businesses paste th
 | Deployment | Vercel (Frontend), Render (Backend) |
 
 
-faq-chatbot/
-├── backend/
-│   ├── index.js          # All API routes
-│   ├── db.js             # MongoDB connection
-│   ├── package.json
-│   └── .env              # Environment variables (not committed)
-│
-└── frontend/
-└── src/
-├── pages/
-│   ├── Setup.jsx       # Create chatbot page
-│   ├── ChatPage.jsx    # Customer chat UI
-│   └── Dashboard.jsx   # Admin dashboard
-└── App.jsx
 
 ## 🧑‍💻 How to Use This Project
 
