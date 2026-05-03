@@ -13,7 +13,7 @@ It simulates a real banking support system that answers customer queries safely 
 
 ---
 
-## 📌 About The Project
+##  About The Project
 
 FinBot is a SaaS platform that allows fintech businesses — banks, payment apps, and investment platforms — to instantly create an AI-powered customer support chatbot from their FAQ data.
 
@@ -21,9 +21,9 @@ Instead of spending months building a custom support system, businesses paste th
 
 ---
 
-## ✨ Features
+## Features
 
-### 💬 Chatbot
+###  Chatbot
 - AI answers customer questions from business FAQ only
 - Quick question chips for common fintech queries
 - Typing indicator for better UX
@@ -33,7 +33,7 @@ Instead of spending months building a custom support system, businesses paste th
 - Personal info detection with safe redirect
 - Duplicate unresolved query prevention
 
-### 📊 Admin Dashboard
+###  Admin Dashboard
 - Separate dashboard per business via shareLink
 - Total chats, 👍 👎 counts, satisfaction rate
 - Top 5 most asked questions
@@ -41,7 +41,7 @@ Instead of spending months building a custom support system, businesses paste th
 - Auto refresh every 30 seconds
 - Mark queries as resolved
 
-### 🔐 Fintech Security
+### Fintech Security
 - Sensitive number masking (4+ digits → XXXX)
 - Personal info detection
 - Input validation and sanitization
@@ -49,7 +49,7 @@ Instead of spending months building a custom support system, businesses paste th
 - No financial advice given by AI
 - Fraud queries escalated to human support
 
-### 🏗️ Architecture
+### Architecture
 - Multi-tenant — each business gets isolated chatbot + dashboard
 - Shareable chat link for customers
 - Private dashboard link for admin
@@ -58,7 +58,7 @@ Instead of spending months building a custom support system, businesses paste th
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -70,13 +70,13 @@ Instead of spending months building a custom support system, businesses paste th
 
 
 
-## 🧑‍💻 How to Use This Project
+##  How to Use This Project
 
 Anyone can run this chatbot locally in a few simple steps:
 
 ---
 
-## 1️⃣ Clone the Project
+## 1.Clone the Project
 
 First, download the project to your system:
 
@@ -84,14 +84,14 @@ First, download the project to your system:
 git clone https://github.com/Pragzh/faq-chatbot.git
 cd faq-chatbot
 
-2️⃣ Setup Backend
+**2. Setup Backend**
 
 Go into backend folder:
 
 cd backend
 npm install
 
-3️⃣ Add Environment Variables
+3️. Add Environment Variables
 
 Create a .env file inside the backend folder:
 
@@ -104,13 +104,13 @@ GROQ_API_KEY=your_groq_api_key
 MongoDB: https://www.mongodb.com/atlas
 Groq API key: https://console.groq.com
 
-4️⃣ Start Backend Server
+4️. Start Backend Server
 node index.js
 
 If successful, you will see:
 
 Server running on http://localhost:5000
-5️⃣ Setup Frontend
+5️. Setup Frontend
 
 Open a new terminal:
 
@@ -121,7 +121,7 @@ npm start
 Frontend will run at:
 
 http://localhost:3000
-6️⃣ Use the Chatbot
+6️. Use the Chatbot
 
 Now open your browser:
 
