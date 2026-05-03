@@ -1,4 +1,4 @@
-# 🏦 FinBot — AI Fintech FAQ Chatbot Builder
+# FinBot — AI Fintech FAQ Chatbot Builder
 
 An AI-powered **fintech customer support chatbot** built using **Node.js, Express, MongoDB, and Groq LLM (LLaMA model)**.  
 It simulates a real banking support system that answers customer queries safely using AI + rules, without giving financial advice.
@@ -76,7 +76,7 @@ Anyone can run this chatbot locally in a few simple steps:
 
 ---
 
-## 1.Clone the Project
+1.Clone the Project
 
 First, download the project to your system:
 
@@ -84,7 +84,7 @@ First, download the project to your system:
 git clone https://github.com/Pragzh/faq-chatbot.git
 cd faq-chatbot
 
-**2. Setup Backend**
+2. Setup Backend
 
 Go into backend folder:
 
